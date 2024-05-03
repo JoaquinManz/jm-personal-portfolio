@@ -41,7 +41,7 @@
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Joaquin</span><br> Junior Fullstack<br> Developer!</h1>
 
-                    <a href="#" class="button">Contact</a>
+                    <a href="#contact" class="button">Contact</a>
                 </div>
 
                 <div class="home__social">
@@ -149,27 +149,27 @@
 
                 <div class="work__container bd-grid">
                     <a href="" class="work__img" title="Spotify Clone">
-                        <img src="assets/img/work1.jpg" alt="Spotify Clone">
+                        <img src="assets/img/spotify.png" alt="Spotify Clone">
                         <h3 class="work__title">Spotify Clone</h3>
                         <p class="work__subtitle">Fully functional Spotify clone, including a database to store your songs.</p>
                     </a>
                     <a href="" class="work__img" title="Geritch Restaurant">
-                        <img src="assets/img/work2.jpg" alt="">
+                        <img src="assets/img/geritch.png" alt="">
                         <h3 class="work__title">Geritch Restaurant</h3>
-                        <p class="work__subtitle">Responsive website for a restaurant.</p>
+                        <p class="work__subtitle">Responsive website for a fine dining restaurant.</p>
                     </a>
                     <a href="" class="work__img" title="Data Finance">
-                        <img src="assets/img/work3.jpg" alt="">
+                        <img src="assets/img/datafinance.png" alt="">
                         <h3 class="work__title">Data finance</h3>
                         <p class="work__subtitle">Data finance related website practicing ReactJS, fully responsive.</p>
                     </a>
                     <a href="" class="work__img" title="GPT3">
-                        <img src="assets/img/work4.jpg" alt="">
+                        <img src="assets/img/gpt3.png" alt="">
                         <h3 class="work__title">GTP3 website</h3>
                         <p class="work__subtitle">Fully responsive GPT3 related website.</p>
                     </a>
                     <a href="" class="work__img" title="Shopping Cart">
-                        <img src="assets/img/work5.jpg" alt="">
+                        <img src="assets/img/shoppingcart.png" alt="">
                         <h3 class="work__title">Shopping Cart</h3>
                         <p class="work__subtitle">Simple shopping cart to practice ReactJS.</p>
                     </a>
@@ -182,18 +182,26 @@
             </section>
 
             <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
+            <section id="contact">
+                <div class="contact-container">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                        <div class="contact-left-title">
+                            <h2>Get in touch</h2>
+                            <hr>
+                        </div>
+                        <input type="hidden" name="access_key" value="6421965d-fd36-4467-9bdf-8fa8f3c337c8">
 
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
+                        <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                        <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                        <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                        <button type="submit">Submit <img src="assets/img/form/arrow_icon.png" alt=""/></button>
                     </form>
+                    <div class="contact-right">
+                        <img src="assets/img/form/right_img.png" alt=""/>
+                    </div>
                 </div>
-            </section>
+            </section>    
+            
         </main>
 
         <!--===== FOOTER =====-->
@@ -204,7 +212,7 @@
                 <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+            <p class="footer__copy">&#169; Bedimcode. All rights reserved</p>
         </footer>
 
 
