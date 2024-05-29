@@ -24,7 +24,7 @@
                         <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
@@ -39,14 +39,14 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Joaquin</span><br> Junior Fullstack<br> Developer!</h1>
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Joaquin</span><br> Junior Fullstack<br> Developer!</h1>
 
                     <a href="#contact" class="button">Contact</a>
                 </div>
 
                 <div class="home__social">
                     <a href="https://www.linkedin.com/in/joaquin-manzanares-320615239" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <!--<a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>-->
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
                     <a href="https://github.com/JoaquinManz" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
 
@@ -73,8 +73,10 @@
                     </div>
                     
                     <div>
-                        <h2 class="about__subtitle">I'am Joaquin</h2>
-                        <p class="about__text">I'm a junior developer willing to learn more and improve my skills.</p>           
+                        <h2 class="about__subtitle">I'm Joaquin</h2>
+                        <p class="about__text">Dynamic Junior Full Stack Developer proficient in React.js with a passion for crafting engaging user experiences. With 
+                            three years of dedicated study and hands-on experience, I bring a blend of theoretical knowledge and practical skills 
+                            honed through Codecademy and a comprehensive career program at IBEC.</p>           
                     </div>                                   
                 </div>
             </section>
@@ -86,10 +88,10 @@
                 <div class="skills__container bd-grid">          
                     <div>
                         <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">As a fullstack developer I've studied a lot of programming languages but I'm mostly specialized in ReactJS, Javascript and HTML.</p>
+                        <!--<p class="skills__text">As a fullstack developer I've studied a lot of programming languages but I'm mostly specialized in ReactJS, Javascript and HTML.</p>-->
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
+                                <img class="skills__icons" src="./assets/img/skillsicons/html5.svg"/>
                                 <span class="skills__name">HTML5</span>
                             </div>
                             <div class="skills__bar skills__html">
@@ -101,7 +103,7 @@
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <img class="skills__icons" src="/assets/img/skillsicons/javascript.svg"/>
                                 <span class="skills__name">JAVASCRIPT</span>
                             </div>
                             <div class="skills__bar skills__css">
@@ -113,7 +115,7 @@
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
+                                <img class="skills__icons" src="assets/img/skillsicons/css3.svg" />
                                 <span class="skills__name">CSS3</span>
                             </div>
                             <div class="skills__bar skills__js">
@@ -125,7 +127,7 @@
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                                <i class='bx ri--reactjs-line skills__icon' ></i>
+                                <img class="skills__icons" src="./assets/img/skillsicons/react.svg" />
                                 <span class="skills__name">REACTJS</span>
                             </div>
                             <div class="skills__bar skills__ux">
@@ -133,6 +135,30 @@
                             </div>
                             <div>
                                 <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img class="skills__icons" src="./assets/img/skillsicons/nodejs.svg"/>
+                                <span class="skills__name">NODEJS</span>
+                            </div>
+                            <div class="skills__bar skills__nodejs">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img class="skills__icons" src="assets/img/skillsicons/mysql.svg"/>
+                                <span class="skills__name">MYSQL</span>
+                            </div>
+                            <div class="skills__bar skills__mysql">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
                             </div>
                         </div>
                     </div>
@@ -143,40 +169,40 @@
                 </div>
             </section>
 
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
+            <!--===== PROJECTS =====-->
+            <section class="work section" id="projects">
                 <h2 class="section-title">Projects</h2>
 
                 <div class="work__container bd-grid">
-                    <a href="" class="work__img" title="Spotify Clone">
+                    <a href="https://github.com/JoaquinManz/spotify-clone" class="work__img" title="Spotify Clone">
                         <img src="assets/img/spotify.png" alt="Spotify Clone">
                         <h3 class="work__title">Spotify Clone</h3>
                         <p class="work__subtitle">Fully functional Spotify clone, including a database to store your songs.</p>
                     </a>
-                    <a href="" class="work__img" title="Geritch Restaurant">
+                    <a href="https://github.com/JoaquinManz/geritch-restaurant" class="work__img" title="Geritch Restaurant">
                         <img src="assets/img/geritch.png" alt="">
                         <h3 class="work__title">Geritch Restaurant</h3>
                         <p class="work__subtitle">Responsive website for a fine dining restaurant.</p>
                     </a>
-                    <a href="" class="work__img" title="Data Finance">
+                    <a href="https://github.com/JoaquinManz/data-finance" class="work__img" title="Data Finance">
                         <img src="assets/img/datafinance.png" alt="">
                         <h3 class="work__title">Data finance</h3>
-                        <p class="work__subtitle">Data finance related website practicing ReactJS, fully responsive.</p>
+                        <p class="work__subtitle">Data finance related website built using the ReactJS library, fully responsive.</p>
                     </a>
-                    <a href="" class="work__img" title="GPT3">
+                    <a href="https://github.com/JoaquinManz/gpt3-jm" class="work__img" title="GPT3">
                         <img src="assets/img/gpt3.png" alt="">
                         <h3 class="work__title">GTP3 website</h3>
                         <p class="work__subtitle">Fully responsive GPT3 related website.</p>
                     </a>
-                    <a href="" class="work__img" title="Shopping Cart">
+                    <a href="https://github.com/JoaquinManz/Shopping-cart" class="work__img" title="Shopping Cart">
                         <img src="assets/img/shoppingcart.png" alt="">
                         <h3 class="work__title">Shopping Cart</h3>
                         <p class="work__subtitle">Simple shopping cart to practice ReactJS.</p>
                     </a>
-                    <a href="" class="work__img" title="Portfolio">
+                    <a href="https://github.com/JoaquinManz/Studio-ghibli" class="work__img" title="Portfolio">
                         <img src="assets/img/work6.jpg" alt="">
-                        <h3 class="work__title">Personal Portfolio</h3>
-                        <p class="work__subtitle">Personal porfolio example built with ReactJS.</p>
+                        <h3 class="work__title">Studio Ghibli</h3>
+                        <p class="work__subtitle">Studio Ghibli website, this website showcases the use of APIs in a VueJS environment.</p>
                     </a>
                 </div>
             </section>
@@ -208,9 +234,9 @@
         <footer class="footer">
             <p class="footer__title">Joaquin</p>
             <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.linkedin.com/in/joaquin-manzanares-320615239" target="_blank" class="footer__icon"><i class='bx bxl-linkedin'></i></a>               
+                <a href="" class="footer__icon"><i class='bx bxl-behance' ></i></a>
+                <a href="https://github.com/JoaquinManz" target="_blank" class="footer__icon"><i class='bx bxl-github' ></i></a>
             </div>
             <p class="footer__copy">&#169; Bedimcode. All rights reserved</p>
         </footer>
