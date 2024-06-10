@@ -8,5 +8,5 @@
 ## Original design: (https://youtu.be/AKNvTxWOdKw)
 
 
-![preview img](/preview.png)
+![preview image](/preview.png)
 
