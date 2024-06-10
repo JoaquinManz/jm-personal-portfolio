@@ -7,7 +7,7 @@
 
 ## Original design: (https://youtu.be/AKNvTxWOdKw)
 
-## Skill icons provided from: (https://Icons8.com)
+## Skill icons provided by: (https://Icons8.com)
 
 
 ![preview image](/preview.png)
